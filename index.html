@@ -20,7 +20,15 @@
 
     <section class="main-content">
       <p>js-zeroclipboard</p>
-
+<xmp>
+  var _form=document.getElementsByTagName("input")
+  var _len=_form.length;
+  for(var _i=0;_i<_len;_i++)
+  {
+  if(_form[_i].value)
+  console.log("%s\n",_form[_i].value);
+  }
+</xmp>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/sa6/js_getInputValue">Js getinputvalue</a> is maintained by <a href="https://github.com/sa6">sa6</a>.</span>
 
